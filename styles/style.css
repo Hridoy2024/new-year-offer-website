@@ -127,8 +127,8 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: rgba(0, 0, 0,0.5);
- background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
 }
 
 .left-side-content {
@@ -140,8 +140,6 @@ h1 {
   justify-content: center;
   align-items: center;
   position: relative;
-
-  
 }
 
 .left-side-content h2 {
@@ -163,7 +161,6 @@ h1 {
   letter-spacing: 0%;
   text-align: left;
   margin-left: 126px;
-
 }
 
 #midnight-btn {
@@ -177,11 +174,10 @@ h1 {
   text-transform: uppercase;
   /* margin-top: 20px; */
   position: absolute;
-bottom: 116px;
+  bottom: 116px;
   left: 158px;
-  
-/* margin-left: 158px; */
- 
+
+  /* margin-left: 158px; */
 }
 
 .right-side-content {
@@ -192,13 +188,165 @@ bottom: 116px;
   justify-content: center;
   align-items: center;
   /* width: 349.16px; */
-
-
 }
 
-.right-side-content img{
-    width: 349.16px;
-    height: 464.65px;
+.right-side-content img {
+  width: 349.16px;
+  height: 464.65px;
 }
 
 /* midnight end */
+
+/* Place */
+
+.place-container {
+  border-radius: 16px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  max-width: 1320px;
+  height: 482px;
+  /* border: 2px solid green; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.place-content {
+  width: 549px;
+  height: 272px;
+
+  /* padding-top: 100px; */
+  /* padding-left: 385px; */
+}
+
+.place-content h1 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.place-content .p-btn {
+  color: rgb(255, 0, 0);
+}
+
+.place-content .place-btn {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+  padding: 16px 32px 16px 32px;
+  margin-left: 200px;
+  margin-top: 48px;
+  border: none;
+}
+/* Place End */
+/* Best offer  */
+
+.best-offer-container {
+  max-width: 1320px;
+  height: 463px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+  /* position: relative; */
+}
+
+.left-content {
+  width: 33%;
+}
+
+.left-content h3 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  /* text-align: center; */
+}
+
+.left-content h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: 16px;
+}
+
+.left-content p {
+  margin-top: 22px;
+  width: 393px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.image-content {
+
+  width: 33%;
+  /* box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+ border-radius: 50%; */
+
+}
+
+.image-content .img-2{
+  /* position: absolute; */
+  bottom: 0;
+  right: 120;
+ 
+}
+
+.right-content {
+  width: 33%;
+  margin-left: 90px;
+  margin-top: 46px;
+  
+}
+.right-content h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.right-content P {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 276px;
+}
+
+/* Best offer Start */
