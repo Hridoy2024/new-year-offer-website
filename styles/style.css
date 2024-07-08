@@ -1,5 +1,204 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-body{
-    font-family: "Merriweather", serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+/* banner start */
+
+.banner-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  min-height: 600px;
+  margin-top: 30px;
+  background-image: url(/images/Banner\ Image.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  background-blend-mode: overlay;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.banner-content p,
+h1 {
+  color: white;
+}
+
+.banner-content p {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.banner-content h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* banner end */
+
+/* 65% section start */
+.catergori-section-container {
+  width: 802.9px;
+  height: 806px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.categories-content h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.categories-content p {
+  color: rgb(255, 0, 0);
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.categories-content h3 {
+  color: rgb(7, 2, 17);
+  font-family: "Merriweather", serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.image-container {
+  width: 802.9px;
+  height: 500px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  margin-top: 48px;
+}
+/* 65% section end */
+
+/* midnight start */
+
+.midnight-container {
+  width: 1320px;
+  height: 600px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  display: flex;
+  background-image: url(/images/Vectorrr.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0,0.5);
+ background-blend-mode: overlay;
+}
+
+.left-side-content {
+  width: 50%;
+  height: 600px;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  
+}
+
+.left-side-content h2 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  margin-left: 90px;
+}
+
+.left-side-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 126px;
+
+}
+
+#midnight-btn {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  /* margin-top: 20px; */
+  position: absolute;
+bottom: 116px;
+  left: 158px;
+  
+/* margin-left: 158px; */
+ 
+}
+
+.right-side-content {
+  width: 50%;
+  height: 600px;
+  /* border: 2px solid rgb(241, 241, 27); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 349.16px; */
+
+
+}
+
+.right-side-content img{
+    width: 349.16px;
+    height: 464.65px;
+}
+
+/* midnight end */
