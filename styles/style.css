@@ -66,7 +66,7 @@ h1 {
 
 /* 65% section start */
 .catergori-section-container {
-  width: 802.9px;
+  max-width: 802.9px;
   height: 806px;
   /* border: 2px solid red; */
   margin: 0 auto;
@@ -118,7 +118,7 @@ h1 {
 /* midnight start */
 
 .midnight-container {
-  width: 1320px;
+  max-width: 1320px;
   height: 600px;
   /* border: 2px solid red; */
   margin: 0 auto;
@@ -201,7 +201,6 @@ h1 {
 
 .place-container {
   border-radius: 16px;
-
   background: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.1),
@@ -355,7 +354,6 @@ h1 {
   /* border: 2px solid red; */
   margin: 0 auto;
   position: relative;
-  
 }
 
 .holyday-text {
@@ -366,7 +364,6 @@ h1 {
   width: 1068px;
   height: 260px;
   margin: 0 auto;
- 
 }
 
 .holyday-text h3 {
@@ -411,25 +408,151 @@ h1 {
 }
 
 .solid-color {
-
- width: 1320px;
- height: 229px;
- background-color: red;
- position: absolute;
- top: 77%;
+  width: 1320px;
+  height: 229px;
+  background-color: red;
+  position: absolute;
+  top: 77%;
 }
 
-.gift-box{
+.gift-box {
   width: 674.82px;
-height: 577.96px;
-position: relative;
-z-index: 1;
+  height: 577.96px;
+  position: relative;
+  z-index: 1;
 }
 
-.girl-content{
+.girl-content {
   position: absolute;
   bottom: 30%;
   left: 75%;
 }
 
 /* Holyday Section end */
+
+/* Portfolio */
+
+.portfolio-container {
+  max-width: 1320px;
+  height: 1163px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.portfolio-text-content h3 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.portfolio-text-content h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.portfolio-text-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 896px;
+  margin-bottom: 50px;
+  /* margin-top: 18px; */
+}
+
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.item {
+  width: 424px;
+  height: 450px;
+}
+
+.portfolio-items img {
+  width: 100%;
+  height: 100%;
+}
+/* Portfolio End */
+
+/* footer */
+
+.footer-container {
+  margin-top: 100px;
+  width: 1400px;
+  height: 500px;
+  padding: 100px 120px;
+  display: flex;
+  background-color: rgb(7, 2, 17);
+  position: relative;
+}
+
+.footer-first-section {
+  width: 33%;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.first-footer {
+  margin-top: 260px;
+}
+
+.f-second-section {
+  width: 33%;
+}
+.f-second-section .icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  position: absolute;
+  top: 60%;
+  right: 55%;
+  gap: 10px;
+}
+
+.f-third-section {
+  width: 33%;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.last-footer {
+  margin-top: 260px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 200px;
+}
+
+/* footer end */
