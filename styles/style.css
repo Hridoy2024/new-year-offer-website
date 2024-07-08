@@ -265,7 +265,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   /* position: relative; */
 }
 
@@ -307,26 +307,22 @@ h1 {
 }
 
 .image-content {
-
   width: 33%;
   /* box-sizing: border-box;
   border: 15px solid rgb(255, 0, 0);
  border-radius: 50%; */
-
 }
 
-.image-content .img-2{
+.image-content .img-2 {
   /* position: absolute; */
   bottom: 0;
   right: 120;
- 
 }
 
 .right-content {
   width: 33%;
   margin-left: 90px;
   margin-top: 46px;
-  
 }
 .right-content h1 {
   color: rgb(255, 0, 0);
@@ -350,3 +346,90 @@ h1 {
 }
 
 /* Best offer Start */
+
+/* Holyday Section */
+
+.holyday-container {
+  max-width: 1320px;
+  height: 986.07px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+.holyday-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+ 
+}
+
+.holyday-text h3 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.holyday-text h2 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.holyday-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 883px;
+  height: 96px;
+}
+
+.holyday-text span {
+  color: rgb(255, 0, 0);
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.solid-color {
+
+ width: 1320px;
+ height: 229px;
+ background-color: red;
+ position: absolute;
+ top: 77%;
+}
+
+.gift-box{
+  width: 674.82px;
+height: 577.96px;
+position: relative;
+z-index: 1;
+}
+
+.girl-content{
+  position: absolute;
+  bottom: 30%;
+  left: 75%;
+}
+
+/* Holyday Section end */
